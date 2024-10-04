@@ -3,11 +3,11 @@ class Game {
     constructor() {
         this.missed = 0;
         this.phrases = [
-            { phrase: "We were on a break" },
-            { phrase: "Winter is coming" },
-            { phrase: "How you doing" },
-            { phrase: "live long and prosper" },
-            { phrase: "the truth is out there" }
+            new Phrase("We were on a break"),
+            new Phrase("Winter is coming"),
+            new Phrase("How you doing"),
+            new Phrase("live long and prosper"),
+            new Phrase("the truth is out there")
         ];
         this.activePhrase = null;
     }
